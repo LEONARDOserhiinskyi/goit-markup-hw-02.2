@@ -104,7 +104,7 @@ letter-spacing: 0.03em;
 }
 .section-employees-title{
 color: var(--title-text-color); 
-font-weight: 400;
+font-weight: 500;
 font-size: 16px;
 line-height: 0.8;
 letter-spacing: 0.03
@@ -118,7 +118,10 @@ letter-spacing: 0.03
 /* button */
 .hero-button{
  background-color:#2196F3 ;
- color: white; 
+ color: white;
+ font-weight: 700;
+font-size: 16px;
+line-height: 1.8; 
  
 }
 .hero-button:focus{
@@ -155,7 +158,10 @@ text-decoration: none;
     /* button */
 .filter-button{
   background-color:#FFFFFF;;
-  color: #2196F3;
+  color: black;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.6;
   text-align: center;
  }
 .filter-button:focus,
