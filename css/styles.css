@@ -43,11 +43,11 @@ letter-spacing: 0.02em;
 .menu-nav-link:focus {
     color:var(--accent-color);
 }
-.menu-nav-link-current {
+.menu-nav-link.current {
  color:var(--accent-color)
 }
 .menu-int-link {
-color:var(--title-text-color);
+color:#757575;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
@@ -135,6 +135,10 @@ color:#2196F3;
 background-color:white;
 border-color: white;
 } 
+.podval{
+background-color:var(--title-text-color)
+
+}
 .contact{
 background-color:var(--title-text-color);
 text-decoration: none;
@@ -166,6 +170,8 @@ font-style:normal;
     line-height: 31px;
     letter-spacing: 0.03em;
     color:var(--accent-color);
+    text-decoration: none;
+    font-style:normal;      
     }
     .contact-logo-dark{
      color:white;
@@ -182,6 +188,7 @@ font-style:normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.6;
+font-family:Roboto ;
  }
 .filter-button:focus,
 .filter-button:hover{
