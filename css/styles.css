@@ -128,7 +128,8 @@ letter-spacing: 0.03
  font-weight: 700;
 font-size: 16px;
 line-height: 1.8;
-font-family:Roboto; 
+font-family:Roboto;
+cursor: pointer; 
  
 }
 .hero-button:focus{
